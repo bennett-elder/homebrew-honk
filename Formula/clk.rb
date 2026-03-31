@@ -1,9 +1,9 @@
 class Clk < Formula
   desc "CLI tool for logging time to ClickUp"
   homepage "https://github.com/bennett-elder/clk"
-  url "https://github.com/bennett-elder/clk/releases/download/4f90465/clk"
-  sha256 "4936525cac109c73cfba8fe33490ce993323538f107e39ada32fcc2656c94ade"
-  version "4f90465"
+  url "https://github.com/bennett-elder/clk/releases/download/d8ce4db/clk"
+  sha256 "76f9872760e613e660eebf86f2e2b5ce8b926ea8c79f8eb9da091c69230bc5d5"
+  version "d8ce4db"
 
   def install
     bin.install "clk"
