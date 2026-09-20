@@ -1,16 +1,16 @@
 class KeepassxcCli < Formula
   desc "CLI for KeePassXC using the browser extension protocol with biometric unlock"
   homepage "https://github.com/bennett-elder/keepassxc-cli"
-  version "2026.09.20.055557"
+  version "2026.09.20.060757"
 
   on_arm do
-    url "https://github.com/bennett-elder/keepassxc-cli/releases/download/honk-v2026.09.20.055557/kpxc-cli-arm64"
-    sha256 "ec2227fed629f231423ef1c4e6c656ba4c120dc89b946937096fab265256c2e2"
+    url "https://github.com/bennett-elder/keepassxc-cli/releases/download/honk-v2026.09.20.060757/kpxc-cli-arm64"
+    sha256 "f539f72e5f6f4ac9321679a457f0aba5260c5417c195a58b1d1c1eb3a9ea1b27"
   end
 
   on_intel do
-    url "https://github.com/bennett-elder/keepassxc-cli/releases/download/honk-v2026.09.20.055557/kpxc-cli-x86_64"
-    sha256 "d0bbdc339a4f383628a4520528f9f734a69999b311b9a72ddcfd060b4e164d00"
+    url "https://github.com/bennett-elder/keepassxc-cli/releases/download/honk-v2026.09.20.060757/kpxc-cli-x86_64"
+    sha256 "0798158681c55ee699a26582ad6efb6b122e6d9f68d0ab59c70a5be19ab53a6a"
   end
 
   def install
